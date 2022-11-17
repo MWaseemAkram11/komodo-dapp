@@ -1,0 +1,27 @@
+.sidebar ul li {margin: 0px 0 12px;}
+.sidebar ul li a{text-decoration: none;color: #333333;padding: 16px 24px; transition: all ease-in-out 0.3s;}
+/*hover*/
+.sidebar ul li a:hover{background:  rgb(4, 118, 146);border-radius: 12px;color: white;}
+.sidebar ul li a:hover .sidebar-icons .black-icon{display: none;}
+.sidebar ul li a:hover .sidebar-icons .red-icon{display: block;}
+.sidebar ul li a:hover .sidebar-tag{margin-left: 21px;}
+/*active*/
+.sidebar ul li a.active{background:  rgb(4, 118, 146);border-radius: 12px; color: white;}
+.sidebar ul li a.active .sidebar-icons .black-icon{display: none;}
+.sidebar ul li a.active .sidebar-icons .red-icon{display: block;}
+/**/
+.sidebar .sidebar-icons{
+    color: white;
+} .sidebar .sidebar-tag{display: inline-block;}
+.sidebar .sidebar-icons .black-icon{display: block;}
+.sidebar .sidebar-icons .red-icon{display: none;}
+.sidebar .sidebar-tag{margin-left: 16px; transition: all ease-in-out 0.2s;font-size: 16px; line-height: 28px;font-weight: 500;}
+/*media quries*/
+/* container-fluid */
+/*container + container-fluid*/
+@media only screen and (max-width:1399px){
+    .sidebar ul li a {padding: 16px 15px;}
+}
+@media only screen and (max-width:991px){
+    .sidebar {display: none;}
+}

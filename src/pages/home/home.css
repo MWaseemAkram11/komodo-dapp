@@ -1,0 +1,28 @@
+.button{
+    color: white;
+    background: rgb(11, 145, 179);
+    padding: 8px 12px;
+    border-radius: 12px;
+    border-style: none;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgb(4, 118, 146);
+}
+h3{ 
+    color: rgb(4, 118, 146);
+}
+.hdr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.spn1{
+    display: inherit; position: relative; width: 50px; height: 50px; transform: rotate(165deg);color: #36d7b7;
+}
+.spn2{
+    position: absolute; top: 50%; left:50%; display: block; width: 10px; height: 10px; border-radius: 5px; transform: translate(-50%, -50%); animation: 2s ease 0s infinite normal none running react-spinners-HashLoader-before;color: #36d7b7
+}
+.spn3{
+    position: absolute; top: 50%; left: 50%; display: block; width: 10px; height:10px; border-radius: 5px; transform: translate(-50%, -50%); animation: 2s ease 0s infinite normal none running react-spinners-HashLoader-after;
+}
